@@ -1,0 +1,46 @@
+.element {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 400px; */
+    /* font-size: 30px; */
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.element-img {
+    width: 240px;
+    height: 240px;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.element-data {
+    text-align: center;
+}
+
+.element-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.element-text{
+    font-size: 0.9em;
+    padding-bottom: 5px;
+}
+.element-footer{
+    display: flex;
+    justify-content: center
+}
+.element:hover{
+   box-shadow: 3px 3px 5px rgb(165, 163, 163);
+   transition: 1s;
+} 
+.element-img:hover{
+scale: 0.75;
+transition: 1s;
+
+}

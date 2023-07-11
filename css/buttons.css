@@ -1,0 +1,74 @@
+.blue-button {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: #6aaaff;
+  transition: 0.5s;
+}
+.blue-button:hover {
+  color: #6aaaff ;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 2px #9cc9e6; 
+  transition: 0.5s;
+}
+
+.red-button {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: #ff0505;
+  transition: 0.5s;
+  
+}
+.red-button:hover {
+  color: #ff6d6d ;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 2px #f19898; 
+  transition: 0.5s;
+}
+
+.btn-minwidth{
+  min-width: 130px;
+}
+
+.green-button {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: #1d7c00;
+  transition: 0.5s;
+  
+}
+.green-button:hover {
+  color: #31e458 ;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 2px #98f1b6; 
+  transition: 0.5s;
+}
+.green-button:active {
+  box-shadow: inset 0px 0.1em 0.6em #31e458;
+  transform: translateY(0em);
+}
+.red-button:active {
+  box-shadow: inset 0px 0.1em 0.6em #ff0505;
+  transform: translateY(0em);
+}
+.blue-button:active {
+  box-shadow: inset 0px 0.1em 0.6em #6aaaff;
+  transform: translateY(0em);
+}
